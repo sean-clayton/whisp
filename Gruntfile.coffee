@@ -6,7 +6,6 @@ module.exports = (grunt) =>
       components:
         files:
           "assets/components.html": "components.html"
-          "assets/components-min.html": "assets/components.html"
     sass:
       default:
         files: "assets/css/app.min.css": "sass/app.scss"
@@ -17,7 +16,17 @@ module.exports = (grunt) =>
       sass:
         files: "sass/*.scss"
         tasks: ["sass"]
+    browserSync:
+      dev:
+        bsFiles:
+          src: [
+            "assets/css/app.min.css"
+            "assets/js/*.js"
+          ]
+        options:
+          proxy: "localhost:2368"
   
   # Tasks
   grunt.registerTask "build", ["vulcanize", "sass"]
-  grunt.registerTask "default", ["build"]
+  grunt.registerTask "serve", ["browserSync"]
+  grunt.registerTask "default", ["build", "serve"]
