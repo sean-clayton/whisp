@@ -1,0 +1,22 @@
+{
+  "name": "whisp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sean-clayton/whisp",
+  "authors": [
+    "Sean Clayton <sean@seanclayton.me>"
+  ],
+  "description": "Material theme for Ghost",
+  "keywords": [
+    "material",
+    "polymer",
+    "ghost"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
