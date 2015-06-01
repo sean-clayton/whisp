@@ -22,11 +22,14 @@ module.exports = (grunt) =>
           src: [
             "assets/css/app.min.css"
             "assets/js/*.js"
+            "assets/components.html"
+            "**/*.hbs"
           ]
         options:
+          watchTask: true
           proxy: "localhost:2368"
   
   # Tasks
   grunt.registerTask "build", ["vulcanize", "sass"]
-  grunt.registerTask "serve", ["browserSync"]
+  grunt.registerTask "serve", ["browserSync", "watch"]
   grunt.registerTask "default", ["build", "serve"]
