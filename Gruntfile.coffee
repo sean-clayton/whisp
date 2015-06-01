@@ -20,3 +20,4 @@ module.exports = (grunt) =>
   
   # Tasks
   grunt.registerTask "build", ["vulcanize", "sass"]
+  grunt.registerTask "default", ["build"]
