@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/sean-clayton/whisp/issues"
   },
-  "homepage": "https://github.com/sean-clayton/whisp"
+  "homepage": "https://github.com/sean-clayton/whisp",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.1.3",
+    "grunt-sass": "^1.0.0",
+    "node-bourbon": "^4.2.2",
+    "node-neat": "^1.7.1-beta1"
+  }
 }
