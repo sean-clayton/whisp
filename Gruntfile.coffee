@@ -1,7 +1,7 @@
 module.exports = (grunt) =>
   require("load-grunt-tasks")(grunt) 
   grunt.initConfig
-    pkg: grunt.file.readJSON('package.json') #
+    pkg: grunt.file.readJSON("package.json") #
     vulcanize:
       components:
         files:
