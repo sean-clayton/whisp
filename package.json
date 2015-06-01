@@ -1,0 +1,24 @@
+{
+  "name": "whisp",
+  "version": "1.0.0",
+  "description": "Material theme for Ghost",
+  "main": "grunt",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sean-clayton/whisp.git"
+  },
+  "keywords": [
+    "material",
+    "ghost",
+    "polymer"
+  ],
+  "author": "Sean Clayton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean-clayton/whisp/issues"
+  },
+  "homepage": "https://github.com/sean-clayton/whisp"
+}
