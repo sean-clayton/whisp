@@ -4,7 +4,7 @@
   "description": "Material theme for Ghost",
   "main": "grunt",
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -22,12 +22,7 @@
   },
   "homepage": "https://github.com/sean-clayton/whisp",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-browser-sync": "^2.1.3",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-sass": "^1.0.0",
-    "grunt-vulcanize": "^0.6.4",
-    "load-grunt-tasks": "^3.2.0",
+    "gulp": "^3.9.0",
     "node-bourbon": "^4.2.2",
     "node-neat": "^1.7.1-beta1"
   }
