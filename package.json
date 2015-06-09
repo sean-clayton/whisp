@@ -2,7 +2,7 @@
   "name": "whisp",
   "version": "1.0.0",
   "description": "Material theme for Ghost",
-  "main": "grunt",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
