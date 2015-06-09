@@ -22,7 +22,11 @@
   },
   "homepage": "https://github.com/sean-clayton/whisp",
   "devDependencies": {
+    "coffee-script": "^1.9.3",
     "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-vulcanize": "^6.0.1",
     "node-bourbon": "^4.2.2",
     "node-neat": "^1.7.1-beta1"
   }
