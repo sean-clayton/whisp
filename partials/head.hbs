@@ -9,12 +9,12 @@
 <!-- Chrome / Android -->
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="black">
-<link rel="icon" href="{{asset "icon.png"}}">
+{{!-- <link rel="icon" href="{{asset "icon.png"}}"> --}}
 
 <!-- Safari / iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<link rel="apple-touch-icon-precomposed" href="{{asset "apple-touch-icon.png"}}">
+{{!-- <link rel="apple-touch-icon-precomposed" href="{{asset "apple-touch-icon.png"}}"> --}}
 
 <!-- Web Components -->
 <script>
@@ -27,7 +27,8 @@
     document.write('<script src="{{asset "components/webcomponentsjs/webcomponents-lite.min.js"}}"><\/script>');
   }
 </script>
+{{> components}}
 
 {{!-- Styles --}}
-<link rel="stylesheet" href="{{asset "css/app.min.css"}}">
+{{!-- <link rel="stylesheet" href="{{asset "css/app.min.css"}}"> --}}
 {{ghost_head}}
